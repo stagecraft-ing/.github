@@ -42,7 +42,9 @@ that authorised it, every run emitting a certificate anyone can verify offline.
 Each project does one job; together they take you from a single hash-verified spec
 all the way to a governed, self-auditing platform running in your own cloud.
 
-<img alt="architecture_infographic_v3.jpg" src="artifacts/architecture_infographic_v3.jpg" width="50%"/>
+<p align="center">
+  <img alt="architecture_infographic_v3.jpg" src="artifacts/architecture_infographic_v3.jpg" width="830px"/>
+</p>
 
 ---
 
