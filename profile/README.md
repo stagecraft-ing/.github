@@ -42,31 +42,7 @@ that authorised it, every run emitting a certificate anyone can verify offline.
 Each project does one job; together they take you from a single hash-verified spec
 all the way to a governed, self-auditing platform running in your own cloud.
 
-```
-   Day 0          ┌──────────────────────────────────────────────┐
-   stand it up    │  oap-bootstrap        fork org + Hetzner K3s   │
-                  └──────────────────────────────────────────────┘
-                                        │
-   the platform   ┌──────────────────────────────────────────────┐
-   govern it      │  open-agentic-platform                         │
-                  │  governed agent execution · policy gates ·     │
-                  │  proof chains · self-authenticating audit      │
-                  └──────────────────────────────────────────────┘
-                                        │
-   the factory    ┌────────────────────────┬─────────────────────┐
-   build apps     │  factory-encore         │  template-encore    │
-                  │  the generator          │  the runnable base  │
-                  └────────────────────────┴─────────────────────┘
-                                        │
-   the toolkit    ┌────────────────────────┬─────────────────────┐
-   prove the run  │  tenant-emit            │  tenant-tail        │
-                  │  sign the run           │  verify the run     │
-                  └────────────────────────┴─────────────────────┘
-                                        │
-   the primitive  ┌──────────────────────────────────────────────┐
-   the foundation │  spec-spine        typed, hash-verified specs  │
-                  └──────────────────────────────────────────────┘
-```
+<img alt="architecture_infographic_v3.jpg" src="artifacts/architecture_infographic_v3.jpg" width="50%"/>
 
 ---
 

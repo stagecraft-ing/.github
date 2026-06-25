@@ -1,0 +1,4 @@
+tor cruft
+.DS_Store
+*.swp
+.idea/
